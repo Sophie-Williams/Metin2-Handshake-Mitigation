@@ -1,4 +1,4 @@
-HEADER_GG_HANDSHAKE_VALIDATION = 48,
+HEADER_GG_HANDSHAKE_VALIDATION,
 
 typedef struct SPacketGGHandshakeValidate
 {
