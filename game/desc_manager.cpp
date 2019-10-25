@@ -68,7 +68,7 @@ bool DESC_MANAGER::IsIntrusiveConnection(const std::string & sHost)
 	return std::get<2>(fIt->second);
 }
 
-void DESC_MANAGER::AddToHandshakeWhiteList(const TPacketHandshakeValidate * pack)
+void DESC_MANAGER::AddToHandshakeWhiteList(const TPacketGGHandshakeValidate * pack)
 {
 	if (g_bAuthServer)
 		return;

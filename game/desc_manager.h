@@ -10,6 +10,6 @@
 		bool	IsOnHandshakeWhitelist(const struct sockaddr_in & c_rSockAddr);
 
 	public:
-		void	AddToHandshakeWhiteList(const TPacketHandshakeValidate * pack);
+		void	AddToHandshakeWhiteList(const TPacketGGHandshakeValidate * pack);
 		void	ConnectionCollector();
 
