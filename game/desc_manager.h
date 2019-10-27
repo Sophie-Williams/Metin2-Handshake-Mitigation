@@ -1,3 +1,5 @@
+typedef struct SPacketGGHandshakeValidate TPacketGGHandshakeValidate;
+
 	private:
 		LPEVENT	m_pkDescManagerGarbageCollector;
 		std::unordered_map<std::string, std::tuple<DWORD, int, bool>> m_connection_mapper;
